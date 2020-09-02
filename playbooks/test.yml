@@ -1,0 +1,7 @@
+---
+- name: fucking test
+  hosts: webservers
+  become: True
+  tasks:
+    - name: sosat zhopy
+      apt: name=gimp update_cache=yes 
